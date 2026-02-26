@@ -3,11 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="style sheet" href="style.css"
-  <!-- 추후 이름 결정 후 타이틀 입력예정  -->
-  <title>Type The Clause</title>
+  <link rel="stylesheet" href="style.css">
+   <title>Type The Clause</title>
 </head>
 <body>
-  
+  <button class="select_mode"><div class="constitution_color_1">헌</div><div class="constitution_color_2">법</div></button>
+  <footer>
+    
+  </footer>
 </body>
 </html>
+
+<!-- Type-The-Clause 프로젝트 프롬프트 정리
+
+프로젝트 개요
+- 프로젝트명: Type-The-Clause
+- 목적: 법률, 헌법 조문 필사를 통한 타자 연습
+- 타겟 사용자: 개인/소규모 그룹, 법률 공부용, 타자 연습용
+- 주요 기능:
+  - 헌법 및 법률 조문 필사 타자 연습
+  - 정확도 및 속도(WPM) 측정
+  - 진행률 저장 (브라우저 localStorage)
+  - 글자별 색상 표시 (맞춤형/오류 표시 가능)
+
+기술 스택
+- HTML, CSS, JavaScript
+- Git + GitHub 배포
+
+라이선스 및 배포 정책
+- 라이선스: Unlicense (퍼블릭 도메인)
+- 사용 허가:
+  - 개인/교육/상업적 목적으로 자유롭게 사용 가능
+  - 복제, 수정, 배포, 재배포, 상업적 활용 자유
+  - 2차 저작물 제작 가능
+- 면책:
+  - 소프트웨어는 "있는 그대로(AS IS)" 제공
+  - 명시적·묵시적 보증 없음
+  - 저자 및 배포자는 법적 책임 없음
+- 한국어 + 영어 안내:
+  - 한국어: 누구나 자유롭게 사용, 복제, 배포, 수정 가능, 면책 조항 포함
+  - 영어: "This is free and unencumbered software… Anyone is free to copy, modify…" 포함
+
+색상 가이드 (예시)
+- Dark Red: R145 G27 B43 → #911B2B
+- Light Brown: R228 G180 B119 → #E4B477
+- 글자별 색상 적용 가능 (<span style="color:#HEX">글자</span> 또는 CSS 클래스)
+
+HTML / CSS 예시
+- 버튼/모드 선택용 예시:
+  <div class="select_mode">모드 선택</div>
+
+- CSS:
+  .select_mode {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 2px solid #FFFFFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      font-weight: bold;
+  }
+
+- 글자별 색상 예시:
+  <p>
+    <span style="color:#911B2B;">첫 글자</span>
+    <span style="color:#E4B477;">둘 글자</span>
+  </p>
+
+Git / GitHub 관리
+- 로컬 저장소 초기화: git init
+- 원격 연결: git remote add origin <URL>
+- 커밋: git add . → git commit -m "메시지"
+- push: git push origin main
+- 충돌 시: git pull origin main --rebase 후 push
+- 혼자 프로젝트 시 강제 push 가능: git push origin main --force
+
+추가 계획 / 옵션 기능
+- 글자별 색상 표시 → JavaScript로 정답/오답 색상 변경
+- 진행률 표시 및 저장 → 브라우저 localStorage
+- 모드 선택 → 버튼 클릭으로 난이도/문서 선택
+- README / 프로젝트 홈페이지에 라이선스 안내 + 기능 설명 통합 -->

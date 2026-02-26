@@ -1,0 +1,23 @@
+html {
+  background-color: #303030;
+}
+
+.select_mode {
+width: 150px;
+height: 150px;
+border-radius: 30%;
+border-color: #FFFFFF;
+text-align: center;
+}
+
+.constitution_color_1 {
+  color: #911B2B;
+}
+
+.constitution_color_2 {
+  color: #E4B477;
+}
+
+footer {
+  background: #353535;
+}
